@@ -1,0 +1,22 @@
+h1 {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  background-color: pink;
+  color: rgb(148, 105, 105);
+}
+
+h1, h2  {
+  border: 3px solid green;
+}
+
+.red-text {
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#greeting {
+  border: 5px solid blue;
+}
