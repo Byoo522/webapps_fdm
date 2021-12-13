@@ -1,15 +1,15 @@
-body  {
+*  {
   text-align: center;
+  font-size: 25px;
+  color: #fff;
 }
 
 div {
   background-color: rgb(62, 141, 245);
-  color: #fff;
 }
 
 span {
   background-color: gold;
-  color: #fff;
 }
 
 .inner-div {
