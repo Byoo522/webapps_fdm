@@ -1,0 +1,17 @@
+body  {
+  text-align: center;
+}
+
+div {
+  background-color: rgb(62, 141, 245);
+  color: #fff;
+}
+
+span {
+  background-color: gold;
+  color: #fff;
+}
+
+.inner-div {
+  background-color: lightskyblue;
+}
