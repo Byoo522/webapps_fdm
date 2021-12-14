@@ -67,6 +67,7 @@
   float: left;
   background-color: darkgray;
   font-size: 20px;
+  overflow: auto;
 }
 
 .article-section2 {
@@ -79,18 +80,20 @@
   float: left;
   background-color: darkgray;
   font-size: 15px;
+
 }
 
 .inner-text {
   margin: 0;
   font-family: monospace;
   font-size: 20px;
+  overflow: auto;
 }
 
 .box {
   background-color: cadetblue;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   box-sizing: border-box;
   float: left;
   margin: 7px;
@@ -100,7 +103,7 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   height: 10%;
   width: 70%;
   top: 90%;
