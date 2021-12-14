@@ -1,0 +1,55 @@
+.box-wrapper {
+  position: relative;
+  width: 70%;
+  border: solid 5px lightskyblue;
+  height: 300px;
+  left: 15%;
+}
+
+.column {
+  /* border: solid 5px red; */
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: red;
+  height: 70%;
+  width: 16%;
+  float: left;
+}
+
+.not-last {
+  margin: 0 0.8% 0 0;
+}
+
+.last {
+  margin: 0;
+}
+
+
+
+.box-wrapper-2 {
+  position: relative;
+  width: 70%;
+  border: solid 5px lightskyblue;
+  height: 300px;
+  left: 15%;
+}
+
+.column2 {
+  /* border: solid 5px red; */
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: red;
+  height: 70%;
+  width: 12%;
+  float: left;
+}
+
+.not-last2 {
+  margin: 0 0.57% 0 0%;
+}
+
+.last2 {
+  margin: 0;
+}
