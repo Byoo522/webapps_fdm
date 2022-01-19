@@ -8,17 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class ListComponent implements OnInit {
 
   public categories: Array<String> = ["Home", "Electronics", "Fashion"];
-  public playerName: String = "";
 
-  constructor() {
-
-  }
+  constructor() { }
 
   ngOnInit(): void {
-  }
-
-  myFunction(x: number) {
-    console.log(x);
   }
 
 }
