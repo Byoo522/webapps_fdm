@@ -1,0 +1,25 @@
+<form (ngSubmit)="onSubmit()">
+  <label>Title:</label>
+  <input type="text" name="title" [(ngModel)]="title">
+  <br>
+  <br>
+  <label>Year:</label>
+  <input type="text" name="year" [(ngModel)]="year">
+  <br>
+  <br>
+  <label>Genre:</label>
+  <input type="text" name="genre" [(ngModel)]="genre">
+  <br>
+  <br>
+  <label>Director:</label>
+  <input type="text" name="director" [(ngModel)]="director">
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+<div class="movie" *ngIf="created">
+  <p>{{title}}</p>
+  <p>{{year}}</p>
+  <p>{{genre}}</p>
+  <p>{{director}}</p>
+</div>

@@ -1,0 +1,15 @@
+<p>login works!</p>
+
+<form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+  <label>Username: </label>
+  <input [(ngModel)]="username" type="text" name="username">
+  <br>
+  <label>Password: </label>
+  <input [(ngModel)]="password" type="text" name="password">
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+<p id="status">{{ message }}</p>
+
+<!-- <h1>{{ letters | mix}}</h1> -->
