@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  box-sizing: border-box;
+}
+.movie{
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: auto;
+}
+.panel-menu{
+  width: 90%;
+  margin: auto;
+  margin-top: 25px;
+  height: 100px;
+  border: 1px solid black;
+  background: #8090B0;
+}
+.menu-button{
+  width: 33.33%;
+  border: 1px solid black;
+  float: left;
+  height: 100%;
+  text-align: center;
+  line-height: 100px;
+}
+.panel{
+  width: 90%;
+  margin: auto;
+  margin-top: 25px;
+  height: 500px;
+  border: 1px solid black;
+  background: #8090B0;
+}
